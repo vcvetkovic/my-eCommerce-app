@@ -1,0 +1,28 @@
+.summary {
+  text-align: center;
+  width: 47%;
+  margin: auto;
+  margin-top: -10rem;
+  position: relative;
+  background-color: #0f0f0f;
+  color: white;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+@media all and (max-width: 480px){
+  .summary{
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 1000px){
+  .summary{
+    width: 100%;
+  }
+}
